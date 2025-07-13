@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<link rel="icon" href="favicon.ico" type="image/x-icon">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 7 - Cardápio Mexicano</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background: #f7fafc; }
+        .fade-in { opacity: 0; transform: translateY(30px); transition: all 0.7s; }
+        .fade-in.visible { opacity: 1; transform: none; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header -->
+     <header class="bg-black/50 backdrop-blur-sm shadow-lg fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-white">Tarciso Ferreira</a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html#projetos" class="text-gray-200 hover:text-indigo-600 transition">Projetos</a>
+                <a href="#detalhes" class="text-gray-200 hover:text-indigo-600 transition">Detalhes</a>
+                <a href="#galeria" class="text-gray-200 hover:text-indigo-600 transition">Galeria</a>
+                <a href="#tecnologias" class="text-gray-200 hover:text-indigo-600 transition">Tecnologias</a>
+                <a href="#contato" class="bg-[#e65100] text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition shadow-lg">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+     <section class="pt-32 pb-16 bg-gradient-to-br from-[#ff9800] to-[#e65100]">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 fade-in">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Sabores Autênticos do México</h1>
+                <p class="text-lg mb-6 text-white">Explore nosso cardápio digital interativo e descubra os pratos que fazem da nossa cozinha uma autêntica experiência mexicana. Prepare-se para uma viagem de sabores!</p>
+                <a href="#contato" class="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-300 shadow-lg">Solicite seu Cardápio</a>
+            </div>
+            <div class="md:w-1/2 flex justify-center fade-in">
+                <video class="rounded-xl shadow-2xl w-full max-w-md object-cover" autoplay muted loop poster="https://placehold.co/600x400/38a169/ffffff?text=Projeto+Nutricional+1">
+                    <source src="video2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalhes do Projeto -->
+    <section id="detalhes" class="py-20 bg-white">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="fade-in">
+                <h2 class="text-3xl font-bold text-[#f97316] mb-4">Sobre o Projeto</h2>
+                <p class="text-lg text-gray-700 mb-6">
+                    Este projeto é um cardápio digital moderno e visualmente atraente para o restaurante "Tierra Mexicana". Foi desenvolvido para oferecer uma experiência de usuário imersiva e interativa, tornando a navegação pelos pratos uma prévia deliciosa da culinária oferecida, com foco em uma apresentação que desperta o apetite.                 A estrutura foi pensada para ser intuitiva e completa, guiando o cliente por todas as seções do menu de forma fluida e agradável.
+                </p>
+                <ul class="space-y-3 text-gray-700">
+                    <li>✔️ Cards interativos com efeito "flip".</li>
+                    <li>✔️ Layout de página única com navegação suave.</li>
+                    <li>✔️ Animações dinâmicas durante a rolagem.</li>
+                    <li>✔️ Slideshow com pratos em destaque.</li>
+                    <li>✔️ Design 100% responsivo para celulares e tablets.</li>
+                    <li>✔️ Seção com depoimentos de clientes.</li>
+                </ul>
+                <a href="https://tarxdev.github.io/romantico1/" target="_blank" class="inline-block mt-6 bg-[#f97316] text-white px-6 py-2 rounded-full font-semibold hover:bg-opacity-70">
+                    Acesse o site do projeto
+                </a>
+            </div>
+            <div class="fade-in">
+                <img src="https://i.ibb.co/FL3hJ35M/Whats-App-Image-2025-07-12-at-20-37-20-1.jpg" alt="Galeria do Projeto" class="rounded-xl shadow-lg w-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+     <section id="galeria" class="py-20 bg-gradient-to-br from-[#ff9800] to-[#e65100]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-10 text-center fade-in">O Projeto em Ação</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 fade-in">
+                <img src="https://i.ibb.co/VY855Qr1/Whats-App-Image-2025-07-12-at-21-02-36.jpg" alt="Foto 1" class="rounded-lg shadow-md object-cover w-full h-64">
+                <img src="https://i.ibb.co/q3qDNKSB/Whats-App-Image-2025-07-12-at-20-52-29.jpg" alt="Foto 2" class="rounded-lg shadow-md object-cover w-full h-64">
+                <img src="https://i.ibb.co/fzWyG6vj/b3483934-2cd4-4bde-9a21-ac687a2dff6e.png" alt="Foto 3" class="rounded-lg shadow-md object-cover w-full h-64">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias -->
+
+     <section id="tecnologias" class="py-20 bg-white">
+  <div class="container mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#f97316]">Tecnologias Utilizadas</h2>
+      <p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">Este projeto foi construído com ferramentas modernas para garantir performance e uma ótima experiência de usuário.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+      <div class="group bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="flex justify-center items-center mb-5 h-20">
+          <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" 
+            alt="Logo do HTML5" 
+            class="h-full w-auto transition-transform duration-500 ease-in-out group-hover:rotate-6"
+          >
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">HTML5</h3>
+        <p class="text-gray-600 leading-relaxed">Estrutura semântica e robusta para todo o conteúdo do site.</p>
+      </div>
+
+      <div class="group bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="flex justify-center items-center mb-5 h-20">
+          <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" 
+            alt="Logo do CSS3" 
+            class="h-full w-auto transition-transform duration-500 ease-in-out group-hover:-rotate-6"
+          >
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">CSS3</h3>
+        <p class="text-gray-600 leading-relaxed">Estilização moderna, animações e layout totalmente responsivo.</p>
+      </div>
+
+      <div class="group bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="flex justify-center items-center mb-5 h-20">
+          <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+            alt="Logo do JavaScript" 
+            class="h-full w-auto transition-transform duration-500 ease-in-out group-hover:rotate-6"
+          >
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">JavaScript</h3>
+        <p class="text-gray-600 leading-relaxed">Interatividade e efeitos dinâmicos, como o flip dos cards e animações.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+    
+    <!-- Contato -->
+     <section id="contato" class="py-20 bg-gray-900">
+  <div class="container mx-auto px-6">
+
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-white">Vamos Conversar?</h2>
+      <p class="text-lg text-gray-300 mt-4 max-w-2xl mx-auto">Estou disponível para novos projetos e colaborações. Escolha sua plataforma preferida e vamos iniciar um diálogo.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <a
+        href="https://instagram.com/seu_usuario_aqui"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group block bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 text-center"
+      >
+        <div class="flex justify-center items-center mb-5 h-16">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Ícone colorido do Instagram" class="h-full w-auto">
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-1">Instagram</h3>
+        <p class="text-gray-500">@seu_usuario_aqui</p>
+        <span class="inline-block font-semibold text-[#f97316] mt-4 group-hover:underline">Seguir →</span>
+      </a>
+
+      <a
+        href="https://wa.me/5581999999999"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group block bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 text-center"
+      >
+        <div class="flex justify-center items-center mb-5 h-16">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2048px-WhatsApp.svg.png" alt="Ícone colorido do WhatsApp" class="h-full w-auto">
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-1">WhatsApp</h3>
+        <p class="text-gray-500">Vamos conversar agora</p>
+        <span class="inline-block font-semibold text-[#f97316] mt-4 group-hover:underline">Chamar no Zap →</span>
+      </a>
+
+      <a
+        href="mailto:seu.email@exemplo.com"
+        class="group block bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 text-center"
+      >
+        <div class="flex justify-center items-center mb-5 h-16">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="Ícone colorido do E-mail (Gmail)" class="h-full w-auto">
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-1">E-mail</h3>
+        <p class="text-gray-500">Para propostas e assuntos formais</p>
+        <span class="inline-block font-semibold text-[#f97316] mt-4 group-hover:underline">Enviar E-mail →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+    <script>
+        // Fade-in animation on scroll
+        document.addEventListener('DOMContentLoaded', function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
